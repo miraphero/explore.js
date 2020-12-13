@@ -111,5 +111,35 @@ console.log(total);
 
 // for getting job ,3 factor works
 // 1.skill-knowledge
-// 2.skill presentation throuth their given task,interview
+// 2.skill presentation throuth PERFORMANCE, their given task,interview
 // 3.Luck factor
+
+// .absolute (Math.abs)   [converts to Positive,- to +, + to +]
+var number = -5;
+var absoluteNumber = Math.abs(number);
+console.log(absoluteNumber);
+
+// .round  (Math.round)
+var number = 5.49; 
+var result = Math.round(number);
+console.log(result);
+
+// .ceil  (Math.ceil) [round figure but upper scale e]{just like the mean shopkeeper}
+var number = 5.01; 
+var result = Math.ceil(number);
+console.log(result);
+
+// .floor (Math.floor) [round figure but lower scale e]{exact opposite to ceil}
+var number = 5.99999; 
+var result = Math.floor(number);
+console.log(result);
+
+// .random (Math.random)  [any random figure,but random]
+var number = 5.99999; 
+var result = Math.random(number);
+console.log(result);
+
+// pick a round random number
+var number = Math.random() * 100;
+var result = Math.round(number);
+console.log(result);
